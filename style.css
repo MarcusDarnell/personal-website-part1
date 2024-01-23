@@ -1,9 +1,67 @@
 header {
+    border: 0.25rem solid black;
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    border-top: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4rem;
+     background-color: rgba(141, 35, 186, 0.386);
+}
+
+button {
+    cursor: pointer;
+    color:rgb(85, 5, 107);
+    background-color: bisque;
+}
+
+div {
+    display: grid;
+    place-items: center;
+    width: 50vw;
+}
+
+img {
+    width: 35vw;
+}
+
+h1 {
+
+ text-align: center;
+ border: solid;
+ background-color: rgba(137, 43, 226, 0.566);
+}
+h2 {
+    text-align: center;
+    border: solid;
+    background-color: rgba(150, 30, 202, 0.629);
+}
+h3 {
+    border: solid;
+    background-color: rgba(52, 178, 236, 0.3);
+}
+
+p {
+    border: solid;
+    background-color: rgba(0, 255, 255, 0.535);
+    text-indent: 50px;
+
+}
+
+body {
+    background-image: url(https://www.tactics.com/a/dm23/1b/deathwish-arch-logo-t-shirt-black-front-detail.jpg);
+    background-size: cover;
+    background-position: auto;
     width: 100vw;
-    border: 1px soli black;
-     background-color: rgb(141, 35, 186);
+}
+
+h4 {
+    text-align: center;
+    border: solid black;
+    background-color: blueviolet;
+}
+
+nav {
+    text-align: center;
+    border: black;
 }
